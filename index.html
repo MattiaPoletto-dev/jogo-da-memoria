@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória de Cores</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Memória de Cores</h1>
+        <div class="game-board">
+            <div class="color-button red" data-color="red"></div>
+            <div class="color-button green" data-color="green"></div>
+            <div class="color-button blue" data-color="blue"></div>
+            <div class="color-button yellow" data-color="yellow"></div>
+        </div>
+        <p class="score">Pontuação: <span id="current-score">0</span></p>
+        <button id="start-button">Iniciar Jogo</button>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
